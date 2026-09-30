@@ -266,6 +266,7 @@
     },
 
     isMobile: function() {
+      return false; // Joxia : jouable sur mobile (commandes tactiles, voir touch.js) au lieu de rediriger vers mobileWarning.html
       return ( location.search.indexOf( 'ignorebrowser=true' ) < 0 && /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test( navigator.userAgent ) );
     },
 
