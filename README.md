@@ -1,3 +1,7 @@
+<!-- joxia-credits -->
+> 🎮 **Fork Joxia Games** de [doublespeakgames/adarkroom](https://github.com/doublespeakgames/adarkroom) — jeu original de ses auteurs, licence **MPL-2.0** (fichier `LICENSE.md` d'origine conservé). Jouer : https://joxiagame.github.io/a-dark-room-joxia/ · Crédits : [`CREDITS.md`](CREDITS.md) · Liste source : [leereilly/games](https://github.com/leereilly/games)
+<!-- /joxia-credits -->
+
 A Dark Room
 ===========
 > "awake. head throbbing. vision blurry. come light the fire."
