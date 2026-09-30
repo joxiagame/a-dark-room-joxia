@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html itemscope itemtype="https://schema.org/CreativeWork">
+<html lang="fr" itemscope itemtype="https://schema.org/CreativeWork">
 <head>
 	<meta charset="UTF-8"/>
 	<!--  
@@ -39,6 +39,8 @@
 				lang = localStorage.lang;
 			} catch(e) {}
 		}
+		// Joxia : français par défaut (le joueur peut toujours changer de langue dans le jeu)
+		if(!lang){ lang = 'fr'; }
 		// if a language different than english requested, load all translations
 		if(lang && lang != 'en'){
 			document.write('<script src="lang/'+lang+'/strings.js"><\/script>');
