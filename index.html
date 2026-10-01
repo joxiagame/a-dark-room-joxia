@@ -122,5 +122,11 @@
     </svg>
   </a>
 <script type="module" src="https://joxiagame.github.io/Joxia-Games/tracker.js?game=ADARKROOM"></script>
+<script>
+	/* Joxia : score officiel du jeu (Score.totalScore : réserves, alliages, vaisseau…) envoyé au classement du hub */
+	setInterval(function () {
+		try { if (window.Score && window.$SM && window.joxiaScore) window.joxiaScore(Score.totalScore()); } catch (e) {}
+	}, 15000);
+</script>
 </body>
 </html>
